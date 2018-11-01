@@ -1,0 +1,16 @@
+Nathanael Lemuella
+1606880144
+APAP-C
+
+Pelajaran Tutorial 7:
+1. Service Producer adalah Backend (di sini adalah mockserver yang ada di Postman)
+	-RestController adalah backend
+	-MockServer adalah server bayangan API yang bisa diakses dengan spesifikasi custom. Berguna untuk pengembangan yang paralel
+2. Service Consumer adalah frontend (di sini adalah langkah B dari bagian tutorial Service Consumer)
+3. Komunikasi antara Service Producer dan Service Consumer dilakukan oleh Web Service
+Tambahan catatan tutorial:
+-Bila model ketika diparse menjadi string terjadi rekursif sampai tidak selesai, gunakan @JsonIgnore
+
+Dari latihan saya mempelajari
+1. Sama seperti yang di tutorial. Memasukkan objek kedalam JSON untuk menguji fungsi add.
+2. Menggunakan API yang sudah tersedia dari internet.
